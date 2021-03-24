@@ -10,11 +10,11 @@ import {
   sortedInsert,
   Token,
   TokenAmount,
-  TradeType,
-  WETH9
+  TradeType
 } from '@uniswap/sdk-core'
 import { ONE, ZERO } from '../constants'
 import invariant from 'tiny-invariant'
+import { WETH9 } from '../constants'
 
 import { Pair } from './pair'
 import { Route } from './route'

@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, Percent, TradeType, validateAndParseAddress } from '@uniswap/sdk-core'
+import { CurrencyAmount, ETHER, Percent, TradeType, validateAndParseAddress } from 'kuswap-sdk-core'
 import { Trade } from 'entities'
 import invariant from 'tiny-invariant'
 

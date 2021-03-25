@@ -1,7 +1,11 @@
 {
   "name": "kuswap-v2-sdk",
   "license": "MIT",
+<<<<<<< HEAD
   "version": "1.0.9",
+=======
+  "version": "1.0.11",
+>>>>>>> kuchain-new
   "description": "🛠 An SDK for building applications on top of Uniswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +28,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "^1.0.8",
+    "kuswap-sdk-core": "^1.0.0",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },

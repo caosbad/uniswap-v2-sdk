@@ -2,8 +2,12 @@ import JSBI from 'jsbi'
 import { Pair, Route, Trade } from './entities'
 import { Router } from './router'
 import invariant from 'tiny-invariant'
+<<<<<<< HEAD
 import { ChainId, CurrencyAmount, ETHER, Percent, Token, TokenAmount } from '@uniswap/sdk-core'
 import { WETH9 } from './constants'
+=======
+import { ChainId, CurrencyAmount, ETHER, Percent, Token, TokenAmount, WETH9 } from 'kuswap-sdk-core'
+>>>>>>> kuchain-new
 
 function checkDeadline(deadline: string[] | string): void {
   expect(typeof deadline).toBe('string')

@@ -1706,19 +1706,6 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@uniswap/sdk-core@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-1.0.8.tgz#ef71021bd7f2791bdb146b740f876a4f2d89c05b"
-  integrity sha512-ted1NTEj023A501rVLdYHqvJt+abAJZPyYZKMLgQ0OGsT/rO8NCYR4kZgvwumv+c7ZlUM8jdmnkiPVH+lFc/kw==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@uniswap/v2-core@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
@@ -4451,6 +4438,19 @@ kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
+
+kuswap-sdk-core@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/kuswap-sdk-core/-/kuswap-sdk-core-1.0.0.tgz#b1d058d7fefa788f5efdcfd5e34a414bb61f71d8"
+  integrity sha512-slQZ2p7zYfhQJ4huTpEuFS+gCM+WAUKkVCF7lKhyyR/mz/ntkNAMEnzZvnGelDUshBa4bTJqV6hoP2Q+z2QZnQ==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 language-subtag-registry@~0.3.2:
   version "0.3.20"
